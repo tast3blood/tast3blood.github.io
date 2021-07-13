@@ -1,8 +1,8 @@
-import * as THREE from '*/three.js/build/three.module.js';
-import { GLTFLoader } from '*/three.js/examples/jsm/loaders/GLTFLoader.js';
-import { RGBELoader } from '*/three.js/examples/jsm/loaders/RGBELoader.js';
-import { ARButton } from '*/three.js/examples/jsm/webxr/ARButton.js';
-import { LoadingBar } from '*/LoadingBar.js';
+import * as THREE from '/three.js/build/three.module.js';
+import { GLTFLoader } from '/three.js/examples/jsm/loaders/GLTFLoader.js';
+import { RGBELoader } from '/three.js/examples/jsm/loaders/RGBELoader.js';
+import { ARButton } from '/three.js/examples/jsm/webxr/ARButton.js';
+import { LoadingBar } from '/LoadingBar.js';
 
 class App{
 	constructor(){
