@@ -1,8 +1,8 @@
-import * as THREE from './three.js/build/three.module.js';
-import { GLTFLoader } from './three.js/examples/jsm/loaders/GLTFLoader.js';
-import { RGBELoader } from './three.js/examples/jsm/loaders/RGBELoader.js';
-import { ARButton } from './three.js/examples/jsm/webxr/ARButton.js';
-import { LoadingBar } from './LoadingBar.js';
+import * as THREE from '/three.js/build/three.module.js';
+import { GLTFLoader } from '/three.js/examples/jsm/loaders/GLTFLoader.js';
+import { RGBELoader } from '/three.js/examples/jsm/loaders/RGBELoader.js';
+import { ARButton } from '/three.js/examples/jsm/webxr/ARButton.js';
+import { LoadingBar } from '/LoadingBar.js';
 
 class App{
 	constructor(){
@@ -95,7 +95,7 @@ class App{
         
         const self = this;
         
-        loader.load( '../../assets/hdr/venice_sunset_1k.hdr', ( texture ) => {
+        loader.load( 'assets/hdr/venice_sunset_1k.hdr', ( texture ) => {
           const envMap = pmremGenerator.fromEquirectangular( texture ).texture;
           pmremGenerator.dispose();
 
